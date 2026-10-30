@@ -22,7 +22,7 @@ Run in order: `python 01_generate_data.py && python 02_run_sql.py && python 03_a
 - Weather-adjusted, H001 is up ~56% (2023→2025), H002 down ~8.5% (efficiency gains), H003 flat.
 - Cleaning removed 687 of 79,062 rows (0.9%): 150 duplicates, 473 missing, 39 negative, 25 spikes.
 
-## Resume bullets (what you can say you did)
+## Resume bullets 
 - Analyzed ~79k hourly electricity readings with Python and Pandas to identify daily, weekly and seasonal usage patterns and a 34% multi-year increase in one household traced to a July 2024 overnight load shift.
 - Cleaned and structured the data with SQL (de-duplication, validation rules, window functions for year-over-year change), removing 0.9% invalid records before analysis.
 - Built a weather-normalized regression (heating/cooling degree days) to separate weather effects from true changes in usage, and presented results in an interactive Excel dashboard.
