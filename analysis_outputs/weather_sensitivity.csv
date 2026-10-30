@@ -1,0 +1,4 @@
+household_id,base_kwh_per_day,kwh_per_heating_degree_day,kwh_per_cooling_degree_day,r_squared,corr_with_temp
+H001,20.307,1.206,3.136,0.804,-0.855
+H002,4.963,0.324,0.629,0.979,-0.946
+H003,10.396,0.789,1.236,0.993,-0.957

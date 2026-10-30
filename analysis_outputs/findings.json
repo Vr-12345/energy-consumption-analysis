@@ -1,0 +1,58 @@
+{
+  "peak_hour": {
+    "H001": {
+      "weekday_peak_hour": 23,
+      "weekend_peak_hour": 23,
+      "weekend_vs_weekday_daily_pct": 3.8
+    },
+    "H002": {
+      "weekday_peak_hour": 19,
+      "weekend_peak_hour": 19,
+      "weekend_vs_weekday_daily_pct": 5.2
+    },
+    "H003": {
+      "weekday_peak_hour": 19,
+      "weekend_peak_hour": 19,
+      "weekend_vs_weekday_daily_pct": 4.6
+    }
+  },
+  "yoy_2025_vs_2023_pct": {
+    "H001": 34.4,
+    "H002": -5.9,
+    "H003": -0.7
+  },
+  "weather_sensitivity": {
+    "H001": {
+      "kwh_per_heating_degree_day": 1.206,
+      "r_squared": 0.804
+    },
+    "H002": {
+      "kwh_per_heating_degree_day": 0.324,
+      "r_squared": 0.979
+    },
+    "H003": {
+      "kwh_per_heating_degree_day": 0.789,
+      "r_squared": 0.993
+    }
+  },
+  "weather_adjusted_change_2023_to_2025_pct": {
+    "H001": 56.1,
+    "H002": -8.5,
+    "H003": -0.5
+  },
+  "overnight_step_change": {
+    "H001": {
+      "largest_monthly_jump_month": "2024-07",
+      "jump_kwh_per_hour": 1.78
+    },
+    "H002": {
+      "largest_monthly_jump_month": "2024-11",
+      "jump_kwh_per_hour": 0.11
+    },
+    "H003": {
+      "largest_monthly_jump_month": "2025-11",
+      "jump_kwh_per_hour": 0.26
+    }
+  },
+  "anomaly_days_flagged": 4
+}

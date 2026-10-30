@@ -1,0 +1,13 @@
+household_id,season,avg_daily_kwh
+H001,1 Winter,42.74
+H001,2 Spring,27.15
+H001,3 Summer,21.32
+H001,4 Fall,28.53
+H002,1 Winter,10.98
+H002,2 Spring,7.2
+H002,3 Summer,5.26
+H002,4 Fall,6.68
+H003,1 Winter,25.0
+H003,2 Spring,15.82
+H003,3 Summer,10.92
+H003,4 Fall,14.79
