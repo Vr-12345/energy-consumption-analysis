@@ -1,5 +1,5 @@
 # Energy Consumption Data Analysis & Dashboard
-**Python · Pandas · SQL (SQLite) · Excel** (Power BI-ready)
+**Python · Pandas · SQL (SQLite) · Excel** 
 
 Analysis of hourly household electricity consumption (3 households, Jan 2023 – Dec 2025, ~79k readings) to find usage patterns, trends and changes over time, delivered as an interactive Excel dashboard.
 
@@ -27,5 +27,5 @@ Run in order: `python 01_generate_data.py && python 02_run_sql.py && python 03_a
 - Cleaned and structured the data with SQL (de-duplication, validation rules, window functions for year-over-year change), removing 0.9% invalid records before analysis.
 - Built a weather-normalized regression (heating/cooling degree days) to separate weather effects from true changes in usage, and presented results in an interactive Excel dashboard.
 
-## Power BI
+## Excel
 Import `sql_outputs/*.csv` (or connect to `energy.db` via ODBC) and recreate the four visuals: monthly line, hourly weekday/weekend line, annual bars, seasonal bars, with a household slicer.
